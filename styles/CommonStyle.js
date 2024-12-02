@@ -2,10 +2,17 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   container: { flex: 1 },
+  fontFamily: 'outfit-light',
 });
+
+export const fontSize = {
+  SIZE_14: 14,
+  SIZE_20: 20,
+};
 
 export const colors = {
   WHITE: '#FFFFFF',
+  WHITE_TRANSPARENT_05: 'rgba(255, 255, 255, 0.2)',
   BLACK: '#000000',
   BACKGROUND: '#008080',
   BORDER_GREY: '#E5E5E5',
@@ -41,6 +48,12 @@ export const icons = {
 };
 
 export const wrappers = {
+  wrapperRow: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+
   wrapper: {
     width: '100%',
     display: 'flex',

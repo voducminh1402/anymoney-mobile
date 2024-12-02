@@ -1,8 +1,6 @@
 import React from 'react';
 import { useFonts } from 'expo-font';
 import AppNavigation from '../navigations/AppNavigation';
-import { SafeAreaView } from 'react-native';
-import { styles } from '../styles/CommonStyle';
 
 export default function RootLayout() {
   useFonts({
@@ -12,9 +10,5 @@ export default function RootLayout() {
     'outfit-light': require('../assets/fonts/Outfit-Light.ttf'),
   });
 
-  return (
-    <SafeAreaView style={styles.container}>
-      <AppNavigation />
-    </SafeAreaView>
-  );
+  return <AppNavigation />;
 }

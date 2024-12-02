@@ -2,6 +2,7 @@ import { View, Text, Image } from 'react-native';
 import React from 'react';
 import { styles } from './LoginStyle';
 import ActionButton from '../../components/ActionButton/ActionButton';
+import ScreenView from '../../commons/ScreenView/ScreenView';
 
 const LoginScreen = () => {
   return (
@@ -10,7 +11,7 @@ const LoginScreen = () => {
         source={require('../../assets/images/login-bg.png')}
         style={styles.backgroundImage}
       />
-      <Text style={styles.headerText}>DoHub</Text>
+      <Text style={styles.headerText}>AnyMoney</Text>
       <View style={styles.loginArea}>
         <View style={styles.actionButtonArea}>
           <ActionButton
