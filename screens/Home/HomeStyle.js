@@ -37,4 +37,10 @@ export const styles = StyleSheet.create({
     ...wrappers.wrapperRow,
     justifyContent: 'space-between',
   },
+
+  totalInfo: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+  },
 });

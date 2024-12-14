@@ -7,7 +7,11 @@ export const styles = StyleSheet.create({
 
 export const fontSize = {
   SIZE_14: 14,
+  SIZE_16: 16,
+  SIZE_18: 18,
   SIZE_20: 20,
+  SIZE_22: 22,
+  SIZE_24: 24,
 };
 
 export const colors = {
@@ -18,6 +22,7 @@ export const colors = {
   BORDER_GREY: '#E5E5E5',
   BLACK_TEXT: '#212121',
   MAIN_ORANGE: '#FF6447',
+  MAIN_YELLOW: '#E8BD60',
 };
 
 export const overlays = {
